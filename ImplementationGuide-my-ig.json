@@ -8,21 +8,21 @@
   "url": "http://example.com/fhir/example",
   "version": "1.0.0",
   "name": "ExampleIG",
-  "title": "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1",
+  "title": "HL7 PT FHIR Implementation Guide: Example IG Release 1 | STU1",
   "status": "active",
   "date": "2020-02-26",
-  "publisher": "My Organization",
+  "publisher": "HL7 Portugal",
   "contact": [
     {
-      "name": "My Organization",
+      "name": "HL7 Portugal",
       "telecom": [
         {
           "system": "url",
-          "value": "http://example.com/committees"
+          "value": "http://hl7.pt"
         },
         {
           "system": "email",
-          "value": "my-group@example.com"
+          "value": "info@hl7.pt"
         }
       ]
     },

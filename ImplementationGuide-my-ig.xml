@@ -9,19 +9,19 @@
   <url value="http://example.com/fhir/example"/>
   <version value="1.0.0"/>
   <name value="ExampleIG"/>
-  <title value="HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"/>
+  <title value="HL7 PT FHIR Implementation Guide: Example IG Release 1 | STU1"/>
   <status value="active"/>
   <date value="2020-02-26"/>
-  <publisher value="My Organization"/>
+  <publisher value="HL7 Portugal"/>
   <contact>
-    <name value="My Organization"/>
+    <name value="HL7 Portugal"/>
     <telecom>
       <system value="url"/>
-      <value value="http://example.com/committees"/>
+      <value value="http://hl7.pt"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="my-group@example.com"/>
+      <value value="info@hl7.pt"/>
     </telecom>
   </contact>
   <contact>
