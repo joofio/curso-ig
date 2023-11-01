@@ -47,7 +47,6 @@ contact:
     telecom:
       - system: email
         value: bobsmith@example.com
-        use: work
 
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
 # code syntax can be used here.
