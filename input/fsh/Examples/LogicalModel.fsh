@@ -1,6 +1,6 @@
 
-Profile:     ExamplePatientProfile
-Id:          example-patient-profile
+Profile:     ExamplePatientProfile1
+Id:          example-patient-profile1
 Parent:      Patient
 Title:       "Example Patient Profile"
 Description: "Example of a profile of Patient"

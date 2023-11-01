@@ -5,8 +5,8 @@ Description: "Body side of a body location."
 * value[x] only CodeableConcept
 * value[x] from http://hl7.org/fhir/ValueSet/bodysite-laterality (required)
 
-Extension: TherapySessionsCompleted
-Id:        therapy-sessions-completed
+Extension: example
+Id:        therapy-sessions-completed1
 Title:     "Therapy Sessions Completed"
 Description: "The number of sessions of some therapy."
 // Limit the context to Procedures -- Also see Rule Sets for a context-setting rule set
@@ -65,3 +65,5 @@ Parent: Patient
 * deceased[x] 1..1
 
 * extension contains Ptprofissao named profissao 0..* MS
+
+
