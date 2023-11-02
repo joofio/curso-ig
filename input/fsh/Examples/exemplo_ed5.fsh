@@ -37,7 +37,7 @@ Description: "Patient"
 * name.given[0] = "Mario"
 * name.given[1] = "BSilva."
 // The first element [0] can also be represented as [+] if it is not preceded by any hard index
-* contact.telecom[+].system = #Work
+* contact.telecom[+].system = #work
 * contact.telecom[=].value = "222-632-4568"
 * contact.telecom[=].use = #home
 * contact.telecom[+].system = #email
