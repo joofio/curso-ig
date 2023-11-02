@@ -1,0 +1,13 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://example.com/fhir/example/ValueSet/ptprof-vs",
+      "version" : "0.1.0-test",
+      "status" : "active",
+      "name" : "ProffisaoVS",
+      "title" : "Profissao Value Set",
+      "description" : "valores de profissao para PT",
+      "systems" : ["http://example.com/fhir/example/CodeSystem/prof-cs"]
+    }
+  ]
+}

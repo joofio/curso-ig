@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="ConditionNVIEIRA"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="ConditionNVIEIRA"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;ConditionNVIEIRA&quot; </p></div><p><b>identifier</b>: id: some value (use: OFFICIAL)</p><p><b>category</b>: someCategory <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (somesystem.org#123)</span>, another category <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (someurlsystem.org#456)</span></p><p><b>severity</b>: some severity <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#1234)</span></p><p><b>bodySite</b>: some body site text <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (bodysiteurl.org#123)</span></p><p><b>subject</b>: <a href="Patient/SomePatient">Patient/SomePatient</a></p><p><b>encounter</b>: <a href="Encounter/SomeEncounter">Encounter/SomeEncounter</a></p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://somesystem.org"/>
+    <value value="some value"/>
+  </identifier>
+  <category>
+    <coding>
+      <system value="http://somesystem.org"/>
+      <code value="123"/>
+    </coding>
+    <text value="someCategory"/>
+  </category>
+  <category>
+    <coding>
+      <system value="http://someurlsystem.org"/>
+      <code value="456"/>
+    </coding>
+    <text value="another category"/>
+  </category>
+  <severity>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="1234"/>
+    </coding>
+    <text value="some severity"/>
+  </severity>
+  <bodySite>
+    <coding>
+      <system value="http://bodysiteurl.org"/>
+      <code value="123"/>
+    </coding>
+    <text value="some body site text"/>
+  </bodySite>
+  <subject>
+    <reference value="Patient/SomePatient"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/SomeEncounter"/>
+  </encounter>
+</Condition>

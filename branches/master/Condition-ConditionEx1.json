@@ -1,0 +1,63 @@
+{
+  "resourceType" : "Condition",
+  "id" : "ConditionEx1",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"ConditionEx1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;ConditionEx1&quot; </p></div><p><b>identifier</b>: id:\u00a0001\u00a0(use:\u00a0USUAL)</p><p><b>clinicalStatus</b>: 01 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#1)</span></p><p><b>verificationStatus</b>: 2 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#2)</span></p><p><b>category</b>: 3 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#3)</span>, 4 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#4)</span></p><p><b>code</b>: 7 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#7)</span></p><p><b>bodySite</b>: 5 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#5)</span></p><p><b>subject</b>: <a href=\"cfsb1698746373341\">cfsb1698746373341</a></p><p><b>recordedDate</b>: 2023-10-31</p><p><b>note</b>: Teste1 (By VS)</p></div>"
+  },
+  "identifier" : [{
+    "use" : "usual",
+    "system" : "001",
+    "value" : "001"
+  }],
+  "clinicalStatus" : {
+    "coding" : [{
+      "system" : "http://example.org",
+      "code" : "1"
+    }],
+    "text" : "01"
+  },
+  "verificationStatus" : {
+    "coding" : [{
+      "system" : "http://example.org",
+      "code" : "2"
+    }],
+    "text" : "2"
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://example.org",
+      "code" : "3"
+    }],
+    "text" : "3"
+  },
+  {
+    "coding" : [{
+      "system" : "http://example.org",
+      "code" : "4"
+    }],
+    "text" : "4"
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://example.org",
+      "code" : "7"
+    }],
+    "text" : "7"
+  },
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "http://example.org",
+      "code" : "5"
+    }],
+    "text" : "5"
+  }],
+  "subject" : {
+    "reference" : "cfsb1698746373341"
+  },
+  "recordedDate" : "2023-10-31",
+  "note" : [{
+    "authorString" : "VS",
+    "text" : "Teste1"
+  }]
+}

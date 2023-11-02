@@ -1,0 +1,4 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.com/fhir/example/ValueSet/ptprof-vs,0.1.0-test,active,,ProffisaoVS,Profissao Value Set,"valores de profissao para PT",,"Internal"
+http://hl7.org/fhir/ValueSet/bodysite-laterality,4.0.1,draft,"2.16.840.1.113883.4.642.3.287",Laterality,Laterality,"Laterality: SNOMED-CT concepts for 'left', 'right', and 'bilateral'","StructureDefinition/Laterality","SCT"
+http://hl7.org/fhir/ValueSet/marital-status,4.0.1,active,"2.16.840.1.113883.4.642.3.29",Marital Status Codes,MaritalStatus,"This value set defines the set of codes that can be used to indicate the marital status of a person.","StructureDefinition/example-patient-profile2,StructureDefinition/example-patient-profile,StructureDefinition/example-patient-profile1,StructureDefinition/example-patient-profile3","THO (V3)"

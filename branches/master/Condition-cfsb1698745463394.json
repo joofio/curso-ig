@@ -1,0 +1,46 @@
+{
+  "resourceType" : "Condition",
+  "id" : "cfsb1698745463394",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cfsb1698745463394\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cfsb1698745463394&quot; </p></div><p><b>identifier</b>: id:\u00a0123456789\u00a0(use:\u00a0OFFICIAL)</p><p><b>category</b>: Example1 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (exampleJM.org#1)</span>, Example2 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (exampleJM.org#2)</span></p><p><b>bodySite</b>: BodySiteCodeExample <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (exampleJM.org#1)</span></p><p><b>subject</b>: <a href=\"cfsb1698745806641\">cfsb1698745806641</a></p><p><b>abatement</b>: 2023-10-31</p><p><b>recorder</b>: <a href=\"Practitioner-cfsb1698744692865.html\">Practitioner/cfsb1698744692865</a> &quot; MOREIRA&quot;</p><p><b>note</b>: Teste 11111 (By João Moreira @2023-10-31)</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "http://exampleJM.org",
+    "value" : "123456789"
+  }],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://exampleJM.org",
+      "code" : "1"
+    }],
+    "text" : "Example1"
+  },
+  {
+    "coding" : [{
+      "system" : "http://exampleJM.org",
+      "code" : "2"
+    }],
+    "text" : "Example2"
+  }],
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "http://exampleJM.org",
+      "code" : "1"
+    }],
+    "text" : "BodySiteCodeExample"
+  }],
+  "subject" : {
+    "reference" : "cfsb1698745806641"
+  },
+  "abatementDateTime" : "2023-10-31",
+  "recorder" : {
+    "reference" : "Practitioner/cfsb1698744692865"
+  },
+  "note" : [{
+    "authorString" : "João Moreira",
+    "time" : "2023-10-31",
+    "text" : "Teste 11111"
+  }]
+}

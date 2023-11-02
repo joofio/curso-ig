@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="cfsb1698744957183"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="cfsb1698744957183"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;cfsb1698744957183&quot; </p></div><p><b>identifier</b>: id: 001 (use: USUAL), id: 002 (use: USUAL)</p><p><b>active</b>: true</p><p><b>name</b>: Miguel</p><p><b>telecom</b>: ph: 2555222255522(HOME)</p><p><b>address</b>: Rua bla bla bla n12(HOME)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 2009-02-02</p><h3>Qualifications</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>teste <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#11)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <system value="1"/>
+    <value value="001"/>
+  </identifier>
+  <identifier>
+    <use value="usual"/>
+    <system value="2"/>
+    <value value="002"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="usual"/>
+    <text value="Miguel"/>
+    <family value="Silva"/>
+    <given value="Miguel"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="2555222255522"/>
+    <use value="home"/>
+  </telecom>
+  <address>
+    <use value="home"/>
+    <text value="Rua bla bla bla n12"/>
+    <city value="Luanda"/>
+    <country value="Angola"/>
+  </address>
+  <gender value="male"/>
+  <birthDate value="2009-02-02"/>
+  <qualification>
+    <code>
+      <coding>
+        <system value="http://example.org"/>
+        <code value="11"/>
+      </coding>
+      <text value="teste"/>
+    </code>
+  </qualification>
+</Practitioner>

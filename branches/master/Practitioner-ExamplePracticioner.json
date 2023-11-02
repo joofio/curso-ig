@@ -1,0 +1,45 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "ExamplePracticioner",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"ExamplePracticioner\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;ExamplePracticioner&quot; </p></div><p><b>identifier</b>: id:\u00a0id4435\u00a0(use:\u00a0OFFICIAL), id:\u00a0id4401\u00a0(use:\u00a0OLD)</p><p><b>active</b>: true</p><p><b>name</b>: José Miguel Alves Fonseca (OFFICIAL)</p><p><b>telecom</b>: 222333444(OLD)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 2009-02-02</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>id:\u00a0id123\u00a0(use:\u00a0OFFICIAL)</td><td>example123 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#123)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "http://www.example.com/identifier-coding",
+    "value" : "id4435"
+  },
+  {
+    "use" : "old",
+    "system" : "http://www.example.com/identifier-coding",
+    "value" : "id4401"
+  }],
+  "active" : true,
+  "name" : [{
+    "use" : "official",
+    "family" : "Alves Fonseca",
+    "given" : ["José",
+    "Miguel"]
+  }],
+  "telecom" : [{
+    "system" : "pager",
+    "value" : "222333444",
+    "use" : "old"
+  }],
+  "gender" : "male",
+  "birthDate" : "2009-02-02",
+  "qualification" : [{
+    "identifier" : [{
+      "use" : "official",
+      "system" : "http://www.example.com/qualification-coding",
+      "value" : "id123"
+    }],
+    "code" : {
+      "coding" : [{
+        "code" : "123"
+      }],
+      "text" : "example123"
+    }
+  }]
+}

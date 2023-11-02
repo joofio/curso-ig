@@ -1,0 +1,42 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "PractitionerNvieira",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"PractitionerNvieira\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;PractitionerNvieira&quot; </p></div><p><b>identifier</b>: id:\u00a012345\u00a0(use:\u00a0OFFICIAL), id:\u00a054321\u00a0(use:\u00a0SECONDARY)</p><p><b>active</b>: true</p><p><b>name</b>: some nvieira name</p><p><b>address</b>: some address text(HOME)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1989-01-01</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>some qualification <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#1234)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "http://example.org",
+    "value" : "12345"
+  },
+  {
+    "use" : "secondary",
+    "system" : "http://algumsite.org",
+    "value" : "54321"
+  }],
+  "active" : true,
+  "name" : [{
+    "use" : "usual",
+    "text" : "some nvieira name",
+    "family" : "some family name",
+    "given" : ["some given"]
+  }],
+  "address" : [{
+    "use" : "home",
+    "text" : "some address text",
+    "city" : "some city",
+    "country" : "some country"
+  }],
+  "gender" : "male",
+  "birthDate" : "1989-01-01",
+  "qualification" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://example.org",
+        "code" : "1234"
+      }],
+      "text" : "some qualification"
+    }
+  }]
+}

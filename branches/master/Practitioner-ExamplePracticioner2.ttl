@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://xxsomewhere.org/fhir/myig/Practitioner/ExamplePracticioner2> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ExamplePracticioner2"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"ExamplePracticioner2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;ExamplePracticioner2&quot; </p></div><p><b>identifier</b>: id: id4435 (use: OFFICIAL), id: id4401 (use: OLD)</p><p><b>active</b>: true</p><p><b>name</b>: José Miguel Alves Fonseca (OFFICIAL)</p><p><b>telecom</b>: 222333444(OLD)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 2009-02-02</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>id: id123 (use: OFFICIAL)</td><td>example123 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#123)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "http://www.example.com/identifier-coding"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "id4435" ]
+  ] [
+     fhir:use [ fhir:v "old" ] ;
+     fhir:system [ fhir:v "http://www.example.com/identifier-coding"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "id4401" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "Alves Fonseca" ] ;
+     fhir:given ( [ fhir:v "José" ] [ fhir:v "Miguel" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "pager" ] ;
+     fhir:value [ fhir:v "222333444" ] ;
+     fhir:use [ fhir:v "old" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "2009-02-02"^^xsd:date] ; # 
+  fhir:qualification ( [
+     fhir:identifier ( [
+       fhir:use [ fhir:v "official" ] ;
+       fhir:system [ fhir:v "http://www.example.com/qualification-coding"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "id123" ]
+     ] ) ;
+     fhir:code [
+       fhir:coding ( [
+         fhir:code [ fhir:v "123" ]
+       ] ) ;
+       fhir:text [ fhir:v "example123" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

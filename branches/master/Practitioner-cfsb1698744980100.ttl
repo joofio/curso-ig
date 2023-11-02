@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://xxsomewhere.org/fhir/myig/Practitioner/cfsb1698744980100> a fhir:Practitioner ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cfsb1698744980100"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"cfsb1698744980100\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;cfsb1698744980100&quot; </p></div><p><b>identifier</b>: id: teste (use: OFFICIAL), id: teste (use: SECONDARY)</p><p><b>active</b>: true</p><p><b>name</b>: Test(OFFICIAL)</p><p><b>telecom</b>: <a href=\"mailto:blablabla2@blabla.bla\">blablabla2@blabla.bla</a></p><p><b>gender</b>: male</p><p><b>birthDate</b>: 2009-02-02</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Doctor of Science <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v2-0360.html\">degreeLicenseCertificate</a>#PHS)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "Coordinator"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "teste" ]
+  ] [
+     fhir:use [ fhir:v "secondary" ] ;
+     fhir:system [ fhir:v "oftalmologist"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "teste" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:text [ fhir:v "Test" ] ;
+     fhir:family [ fhir:v "Santos" ] ;
+     fhir:given ( [ fhir:v "Luis" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "blablabla2@blabla.bla" ] ;
+     fhir:use [ fhir:v "work" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "2009-02-02"^^xsd:date] ; # 
+  fhir:qualification ( [
+     fhir:code [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0360"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "PHS" ]
+       ] ) ;
+       fhir:text [ fhir:v "Doctor of Science" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

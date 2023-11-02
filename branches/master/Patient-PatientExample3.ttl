@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://xxsomewhere.org/fhir/myig/Patient/PatientExample3> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PatientExample3"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Mario BSilva. Silva </b> male, DoB: 1999-05-02</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail:</td><td colspan=\"3\">bla bla bla CITY 12345 AO </td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Languages spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes: {urn:ietf:bcp:47 en-US}\">English</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient contact\">Contact</td><td colspan=\"3\"><ul><li>ph: 222-632-4568(HOME)</li><li><a href=\"mailto:mario.silva@example.com\">mario.silva@example.com</a></li></ul></td></tr></table></div>"
+  ] ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Silva" ] ;
+     fhir:given ( [ fhir:v "Mario" ] [ fhir:v "BSilva." ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "male"] ; # 
+  fhir:birthDate [ fhir:v "1999-05-02"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:line ( [ fhir:v "bla bla bla" ] ) ;
+     fhir:city [ fhir:v "CITY" ] ;
+     fhir:postalCode [ fhir:v "12345" ] ;
+     fhir:country [ fhir:v "AO" ]
+  ] ) ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "phone" ] ;
+       fhir:value [ fhir:v "222-632-4568" ] ;
+       fhir:use [ fhir:v "home" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "mario.silva@example.com" ]
+     ] )
+  ] ) ; # 
+  fhir:communication ( [
+     fhir:language [
+       fhir:coding ( [
+         fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "en-US" ] ;
+         fhir:display [ fhir:v "English (Region=United States)" ]
+       ] ) ;
+       fhir:text [ fhir:v "English" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

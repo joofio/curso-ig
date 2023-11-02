@@ -1,0 +1,23 @@
+{
+  "resourceType" : "Patient",
+  "id" : "cfsb1697532193938",
+  "meta" : {
+    "profile" : ["http://example.com/fhir/example/StructureDefinition/example-patient-profile"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Maria Ferreira (OFFICIAL)</b> female, DoB Unknown ( id:\u00a0?ngen-9?)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: \">single</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "teste"
+  }],
+  "name" : [{
+    "use" : "official",
+    "family" : "Ferreira",
+    "given" : ["Maria"]
+  }],
+  "gender" : "female",
+  "maritalStatus" : {
+    "text" : "single"
+  }
+}

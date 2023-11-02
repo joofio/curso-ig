@@ -1,0 +1,13 @@
+{
+  "url" : "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+  "name" : "curso-fhir-pt-ig",
+  "package-id" : "OBSCDSS.fhir.uv.myig",
+  "ig-ver" : "0.1.0-test",
+  "date" : "Thu, 02 Nov, 2023 09:41:29 +0000",
+  "errs" : 85,
+  "warnings" : 53,
+  "hints" : 12,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1081123968
+}

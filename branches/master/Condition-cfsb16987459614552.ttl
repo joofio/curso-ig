@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://xxsomewhere.org/fhir/myig/Condition/cfsb16987459614552> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cfsb16987459614552"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"cfsb16987459614552\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;cfsb16987459614552&quot; </p></div><p><b>clinicalStatus</b>: Relapse <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-condition-clinical.html\">Condition Clinical Status Codes</a>#relapse)</span></p><p><b>category</b>: teste#123 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#teste#123)</span>, teste2#321 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#teste2#321)</span></p><p><b>bodySite</b>: 123 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (body-site#123)</span></p><p><b>subject</b>: <a href=\"cfsb1698746585639\">cfsb1698746585639</a></p><p><b>recordedDate</b>: 2015-02-07 13:28:17+0000</p><h3>Evidences</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Detail</b></td></tr><tr><td style=\"display: none\">*</td><td>198007 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#198007)</span></td><td><a href=\"cfsb1698745961455\">cfsb1698745961455</a></td></tr></table></div>"
+  ] ; # 
+  fhir:clinicalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/condition-clinical"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "relapse" ]
+     ] )
+  ] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:code [ fhir:v "teste#123" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       fhir:code [ fhir:v "teste2#321" ]
+     ] )
+  ] ) ; # 
+  fhir:bodySite ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/CodeSystem/body-site"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "123" ]
+     ] )
+  ] ) ; # 
+  fhir:subject [
+     fhir:reference [ fhir:v "cfsb1698746585639" ]
+  ] ; # 
+  fhir:recordedDate [ fhir:v "2015-02-07T13:28:17Z"^^xsd:dateTime] ; # 
+  fhir:evidence ( [
+     fhir:code ( [
+       fhir:coding ( [
+         a sct:198007 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "198007" ]
+       ] )
+     ] ) ;
+     fhir:detail ( [
+       fhir:reference [ fhir:v "cfsb1698745961455" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

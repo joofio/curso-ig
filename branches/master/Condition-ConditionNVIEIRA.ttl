@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://xxsomewhere.org/fhir/myig/Condition/ConditionNVIEIRA> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConditionNVIEIRA"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"ConditionNVIEIRA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;ConditionNVIEIRA&quot; </p></div><p><b>identifier</b>: id: some value (use: OFFICIAL)</p><p><b>category</b>: someCategory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (somesystem.org#123)</span>, another category <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (someurlsystem.org#456)</span></p><p><b>severity</b>: some severity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#1234)</span></p><p><b>bodySite</b>: some body site text <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (bodysiteurl.org#123)</span></p><p><b>subject</b>: <a href=\"Patient/SomePatient\">Patient/SomePatient</a></p><p><b>encounter</b>: <a href=\"Encounter/SomeEncounter\">Encounter/SomeEncounter</a></p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "http://somesystem.org"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "some value" ]
+  ] ) ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://somesystem.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "123" ]
+     ] ) ;
+     fhir:text [ fhir:v "someCategory" ]
+  ] [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://someurlsystem.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "456" ]
+     ] ) ;
+     fhir:text [ fhir:v "another category" ]
+  ] ) ; # 
+  fhir:severity [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://example.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1234" ]
+     ] ) ;
+     fhir:text [ fhir:v "some severity" ]
+  ] ; # 
+  fhir:bodySite ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://bodysiteurl.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "123" ]
+     ] ) ;
+     fhir:text [ fhir:v "some body site text" ]
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <http://xxsomewhere.org/fhir/myig/Patient/SomePatient> ;
+     fhir:reference [ fhir:v "Patient/SomePatient" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <http://xxsomewhere.org/fhir/myig/Encounter/SomeEncounter> ;
+     fhir:reference [ fhir:v "Encounter/SomeEncounter" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

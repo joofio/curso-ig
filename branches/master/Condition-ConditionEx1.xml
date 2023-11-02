@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="ConditionEx1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="ConditionEx1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;ConditionEx1&quot; </p></div><p><b>identifier</b>: id: 001 (use: USUAL)</p><p><b>clinicalStatus</b>: 01 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#1)</span></p><p><b>verificationStatus</b>: 2 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#2)</span></p><p><b>category</b>: 3 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#3)</span>, 4 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#4)</span></p><p><b>code</b>: 7 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#7)</span></p><p><b>bodySite</b>: 5 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#5)</span></p><p><b>subject</b>: <a href="cfsb1698746373341">cfsb1698746373341</a></p><p><b>recordedDate</b>: 2023-10-31</p><p><b>note</b>: Teste1 (By VS)</p></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <system value="001"/>
+    <value value="001"/>
+  </identifier>
+  <clinicalStatus>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="1"/>
+    </coding>
+    <text value="01"/>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="2"/>
+    </coding>
+    <text value="2"/>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="3"/>
+    </coding>
+    <text value="3"/>
+  </category>
+  <category>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="4"/>
+    </coding>
+    <text value="4"/>
+  </category>
+  <code>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="7"/>
+    </coding>
+    <text value="7"/>
+  </code>
+  <bodySite>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="5"/>
+    </coding>
+    <text value="5"/>
+  </bodySite>
+  <subject>
+    <reference value="cfsb1698746373341"/>
+  </subject>
+  <recordedDate value="2023-10-31"/>
+  <note>
+    <authorString value="VS"/>
+    <text value="Teste1"/>
+  </note>
+</Condition>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="cfsb1698744692865"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="cfsb1698744692865"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;cfsb1698744692865&quot; </p></div><p><b>identifier</b>: id: João (use: USUAL), id: João Moreira (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>name</b>: João Moreira (OFFICIAL)</p><p><b>telecom</b>: ph: 930000000(WORK)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 2000-01-01</p><h3>Qualifications</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Identifier</b></td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>id: 1 (use: USUAL)</td><td>CodigoTesteJM <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (exampleJMrg#123)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <system value="http://exampleJM.org"/>
+    <value value="João"/>
+  </identifier>
+  <identifier>
+    <use value="official"/>
+    <system value="http://exampleJM.org"/>
+    <value value="João Moreira"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="official"/>
+    <family value="Moreira"/>
+    <given value="João"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="930000000"/>
+    <use value="work"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="2000-01-01"/>
+  <qualification>
+    <identifier>
+      <use value="usual"/>
+      <system value="http://exampleJM.org"/>
+      <value value="1"/>
+    </identifier>
+    <code>
+      <coding>
+        <system value="http://exampleJMrg"/>
+        <code value="123"/>
+      </coding>
+      <text value="CodigoTesteJM"/>
+    </code>
+  </qualification>
+</Practitioner>

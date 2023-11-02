@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://xxsomewhere.org/fhir/myig/CodeSystem/prof-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "prof-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://example.com/fhir/example/CodeSystem/prof-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">serralheiro<a name=\"prof-cs-serralheiro\"> </a></td></tr><tr><td style=\"white-space:nowrap\">medico<a name=\"prof-cs-medico\"> </a></td></tr><tr><td style=\"white-space:nowrap\">motorista<a name=\"prof-cs-motorista\"> </a></td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.com/fhir/example/CodeSystem/prof-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0-test"] ; # 
+  fhir:name [ fhir:v "ProfisaoCS"] ; # 
+  fhir:title [ fhir:v "profissao code system"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2023-11-02T09:41:29+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "xxxYour Work Group"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://xxhl7.org/Special/committees/[something]" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Lymph node terms that could not be found in standard sources such as SNOMED CT."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "serralheiro" ] ;
+     fhir:display [ fhir:v "serralheiro" ]
+  ] [
+     fhir:code [ fhir:v "medico" ] ;
+     fhir:display [ fhir:v "medico" ]
+  ] [
+     fhir:code [ fhir:v "motorista" ] ;
+     fhir:display [ fhir:v "motorista" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

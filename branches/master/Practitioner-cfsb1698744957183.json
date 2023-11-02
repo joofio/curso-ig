@@ -1,0 +1,47 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "cfsb1698744957183",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"cfsb1698744957183\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;cfsb1698744957183&quot; </p></div><p><b>identifier</b>: id:\u00a0001\u00a0(use:\u00a0USUAL), id:\u00a0002\u00a0(use:\u00a0USUAL)</p><p><b>active</b>: true</p><p><b>name</b>: Miguel</p><p><b>telecom</b>: ph: 2555222255522(HOME)</p><p><b>address</b>: Rua bla bla bla n12(HOME)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 2009-02-02</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>teste <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#11)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "usual",
+    "system" : "1",
+    "value" : "001"
+  },
+  {
+    "use" : "usual",
+    "system" : "2",
+    "value" : "002"
+  }],
+  "active" : true,
+  "name" : [{
+    "use" : "usual",
+    "text" : "Miguel",
+    "family" : "Silva",
+    "given" : ["Miguel"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "2555222255522",
+    "use" : "home"
+  }],
+  "address" : [{
+    "use" : "home",
+    "text" : "Rua bla bla bla n12",
+    "city" : "Luanda",
+    "country" : "Angola"
+  }],
+  "gender" : "male",
+  "birthDate" : "2009-02-02",
+  "qualification" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://example.org",
+        "code" : "11"
+      }],
+      "text" : "teste"
+    }
+  }]
+}
