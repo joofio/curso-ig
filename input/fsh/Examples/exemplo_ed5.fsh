@@ -569,6 +569,8 @@ Usage: #example
 * active = true
 
 
+
+
 Instance: exampleCondition
 InstanceOf: Condition
 Description: "ConditionExample"
@@ -642,8 +644,6 @@ Description: "Example of a profile of Patient"
 Extension: Teste2
 Description: "Teste Aula"
 * ^url = "http://example.org/extensions/teste"
-
-
 * value[x] only boolean
 
 //Criar Perfil
@@ -674,7 +674,7 @@ Usage: #example
 * name.given = "Maria"
 * name.family = "Ferreira"
 * name.use = #official
-* extension[+].url = "http://example.org/extensions/teste"
+//* extension[+].url = "http://example.org/extensions/teste"
 
 * identifier.system = "teste"
 
