@@ -51,19 +51,6 @@ Description: "valores de profissao para PT"
 
 
 
-Extension: Ptprofissao
-Description: "Profissao patient"
-* value[x] only CodeableConcept
-* value[x] from ptprof-vs (extensible)
 
-Profile: PtPatient
-Parent: Patient
-
-* active 1..1
-* name 1..*
-* birthDate 1..1
-* deceased[x] 1..1
-
-* extension contains Ptprofissao named profissao 0..* MS
 
 
