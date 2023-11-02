@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="cfsb16987459614553"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="cfsb16987459614553"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;cfsb16987459614553&quot; </p></div><p><b>clinicalStatus</b>: Relapse <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#relapse)</span></p><p><b>category</b>: teste#123 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#teste#123)</span>, teste2#321 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#teste2#321)</span></p><p><b>bodySite</b>: 89221001 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (Base_of_first_metatarsal_bone#89221001)</span></p><p><b>subject</b>: <a href="cfsb1698746585639">cfsb1698746585639</a></p><p><b>recordedDate</b>: 2015-02-07 13:28:17+0000</p><h3>Evidences</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Detail</b></td></tr><tr><td style="display: none">*</td><td>198007 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#198007)</span></td><td><a href="cfsb1698745961455">cfsb1698745961455</a></td></tr></table></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="relapse"/>
+    </coding>
+  </clinicalStatus>
+  <category>
+    <coding>
+      <code value="teste#123"/>
+    </coding>
+  </category>
+  <category>
+    <coding>
+      <code value="teste2#321"/>
+    </coding>
+  </category>
+  <bodySite>
+    <coding>
+      <system value="http://Base_of_first_metatarsal_bone"/>
+      <code value="89221001"/>
+    </coding>
+  </bodySite>
+  <subject>
+    <reference value="cfsb1698746585639"/>
+  </subject>
+  <recordedDate value="2015-02-07T13:28:17Z"/>
+  <evidence>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="198007"/>
+      </coding>
+    </code>
+    <detail>
+      <reference value="cfsb1698745961455"/>
+    </detail>
+  </evidence>
+</Condition>

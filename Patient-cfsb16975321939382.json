@@ -1,0 +1,25 @@
+{
+  "resourceType" : "Patient",
+  "id" : "cfsb16975321939382",
+  "meta" : {
+    "profile" : ["http://example.com/fhir/example/StructureDefinition/example-patient-profile3"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Maria Ferreira (OFFICIAL)</b> female, DoB: 2000-10-02 ( id:\u00a0?ngen-9?)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known status of Patient\">Deceased:</td><td>true</td><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: \">single</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "system" : "teste"
+  }],
+  "name" : [{
+    "use" : "official",
+    "family" : "Ferreira",
+    "given" : ["Maria"]
+  }],
+  "gender" : "female",
+  "birthDate" : "2000-10-02",
+  "deceasedBoolean" : true,
+  "maritalStatus" : {
+    "text" : "single"
+  }
+}

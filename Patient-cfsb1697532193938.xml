@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="cfsb1697532193938"/>
+  <meta>
+    <profile value="http://example.com/fhir/example/StructureDefinition/example-patient-profile"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Maria Ferreira (OFFICIAL)</b> female, DoB Unknown ( id: ?ngen-9?)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Known Marital status of Patient">Marital Status:</td><td colspan="3"><span title="Codes: ">single</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="teste"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Ferreira"/>
+    <given value="Maria"/>
+  </name>
+  <gender value="female"/>
+  <maritalStatus>
+    <text value="single"/>
+  </maritalStatus>
+</Patient>

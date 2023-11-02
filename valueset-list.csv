@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://example.com/fhir/example/ValueSet/ptprof-vs,0.1.0-test,active,,ProffisaoVS,Profissao Value Set,"valores de profissao para PT",,"Internal"

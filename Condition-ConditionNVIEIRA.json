@@ -1,0 +1,47 @@
+{
+  "resourceType" : "Condition",
+  "id" : "ConditionNVIEIRA",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Condition</b><a name=\"ConditionNVIEIRA\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Condition &quot;ConditionNVIEIRA&quot; </p></div><p><b>identifier</b>: id:\u00a0some value\u00a0(use:\u00a0OFFICIAL)</p><p><b>category</b>: someCategory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (somesystem.org#123)</span>, another category <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (someurlsystem.org#456)</span></p><p><b>severity</b>: some severity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#1234)</span></p><p><b>bodySite</b>: some body site text <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (bodysiteurl.org#123)</span></p><p><b>subject</b>: <a href=\"Patient/SomePatient\">Patient/SomePatient</a></p><p><b>encounter</b>: <a href=\"Encounter/SomeEncounter\">Encounter/SomeEncounter</a></p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "http://somesystem.org",
+    "value" : "some value"
+  }],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://somesystem.org",
+      "code" : "123"
+    }],
+    "text" : "someCategory"
+  },
+  {
+    "coding" : [{
+      "system" : "http://someurlsystem.org",
+      "code" : "456"
+    }],
+    "text" : "another category"
+  }],
+  "severity" : {
+    "coding" : [{
+      "system" : "http://example.org",
+      "code" : "1234"
+    }],
+    "text" : "some severity"
+  },
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "http://bodysiteurl.org",
+      "code" : "123"
+    }],
+    "text" : "some body site text"
+  }],
+  "subject" : {
+    "reference" : "Patient/SomePatient"
+  },
+  "encounter" : {
+    "reference" : "Encounter/SomeEncounter"
+  }
+}

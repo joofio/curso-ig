@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="cfsb1698745319555"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="cfsb1698745319555"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;cfsb1698745319555&quot; </p></div><p><b>identifier</b>: id: 1222 (use: USUAL)</p><p><b>clinicalStatus</b>: 222 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.com#122)</span></p><p><b>category</b>: 1 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#1)</span>, 2 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#2)</span></p><p><b>bodySite</b>: 122 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#122)</span></p><p><b>subject</b>: <a href="cfsb1698745450589">cfsb1698745450589</a></p><p><b>onset</b>: 2015-02-07 13:28:17+0000</p><p><b>recorder</b>: <a href="cfsb1698745778988">cfsb1698745778988</a></p></div>
+  </text>
+  <identifier>
+    <use value="usual"/>
+    <system value="112"/>
+    <value value="1222"/>
+  </identifier>
+  <clinicalStatus>
+    <coding>
+      <system value="http://example.com"/>
+      <code value="122"/>
+    </coding>
+    <text value="222"/>
+  </clinicalStatus>
+  <category>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="1"/>
+    </coding>
+    <text value="1"/>
+  </category>
+  <category>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="2"/>
+    </coding>
+    <text value="2"/>
+  </category>
+  <bodySite>
+    <coding>
+      <system value="http://example.org"/>
+      <code value="122"/>
+    </coding>
+    <text value="122"/>
+  </bodySite>
+  <subject>
+    <reference value="cfsb1698745450589"/>
+  </subject>
+  <onsetDateTime value="2015-02-07T13:28:17Z"/>
+  <recorder>
+    <reference value="cfsb1698745778988"/>
+  </recorder>
+</Condition>

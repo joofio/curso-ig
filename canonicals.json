@@ -1,9 +1,114 @@
 [
   {
-    "id": "my-ig",
-    "type": "ImplementationGuide",
-    "url": "http://example.com/fhir/example",
-    "version": "1.0.0",
-    "name": "ExampleIG"
+    "id" : "prof-cs",
+    "type" : "CodeSystem",
+    "url" : "http://example.com/fhir/example/CodeSystem/prof-cs",
+    "version" : "0.1.0-test",
+    "name" : "ProfisaoCS"
+  },
+  {
+    "id" : "Composition-uv-ips",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/Composition-uv-ips",
+    "version" : "0.1.0-test",
+    "name" : "CompositionUvIps"
+  },
+  {
+    "id" : "Laterality",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/Laterality",
+    "version" : "0.1.0-test",
+    "name" : "Laterality"
+  },
+  {
+    "id" : "Teste",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/Teste",
+    "version" : "0.1.0-test",
+    "name" : "Teste"
+  },
+  {
+    "id" : "example-patient-profile",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/example-patient-profile",
+    "version" : "0.1.0-test",
+    "name" : "ExamplePatientProfile"
+  },
+  {
+    "id" : "example-patient-profile1",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/example-patient-profile1",
+    "version" : "0.1.0-test",
+    "name" : "ExamplePatientProfile1"
+  },
+  {
+    "id" : "example-patient-profile2",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/example-patient-profile2",
+    "version" : "0.1.0-test",
+    "name" : "ExamplePatientProfile2"
+  },
+  {
+    "id" : "example-patient-profile3",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/example-patient-profile3",
+    "version" : "0.1.0-test",
+    "name" : "ExamplePatientProfile3"
+  },
+  {
+    "id" : "nvieira-patient-profile",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/nvieira-patient-profile",
+    "version" : "0.1.0-test",
+    "name" : "NvieiraPatientProfile"
+  },
+  {
+    "id" : "related-condition",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/related-condition",
+    "version" : "0.1.0-test",
+    "name" : "RelatedCondition"
+  },
+  {
+    "id" : "therapy-sessions-completed",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/therapy-sessions-completed",
+    "version" : "0.1.0-test",
+    "name" : "TherapySessionsCompleted"
+  },
+  {
+    "id" : "therapy-sessions-completed1",
+    "type" : "StructureDefinition",
+    "url" : "http://example.com/fhir/example/StructureDefinition/therapy-sessions-completed1",
+    "version" : "0.1.0-test",
+    "name" : "example"
+  },
+  {
+    "id" : "ptprof-vs",
+    "type" : "ValueSet",
+    "url" : "http://example.com/fhir/example/ValueSet/ptprof-vs",
+    "version" : "0.1.0-test",
+    "name" : "ProffisaoVS"
+  },
+  {
+    "id" : "TesteNvieira",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/extension/nvieira",
+    "version" : "0.1.0-test",
+    "name" : "TesteNvieira"
+  },
+  {
+    "id" : "Teste2",
+    "type" : "StructureDefinition",
+    "url" : "http://example.org/extensions/teste",
+    "version" : "0.1.0-test",
+    "name" : "Teste2"
+  },
+  {
+    "id" : "xxexample.fhir.uv.myig",
+    "type" : "ImplementationGuide",
+    "url" : "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
+    "version" : "0.1.0-test",
+    "name" : "curso-fhir-pt-ig"
   }
 ]

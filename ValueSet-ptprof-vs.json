@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ptprof-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-prof-cs.html\"><code>http://example.com/fhir/example/CodeSystem/prof-cs</code></a></li></ul></div>"
+  },
+  "url" : "http://example.com/fhir/example/ValueSet/ptprof-vs",
+  "version" : "0.1.0-test",
+  "name" : "ProffisaoVS",
+  "title" : "Profissao Value Set",
+  "status" : "active",
+  "date" : "2023-11-02T09:41:29+00:00",
+  "publisher" : "xxxYour Work Group",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://xxhl7.org/Special/committees/[something]"
+    }]
+  }],
+  "description" : "valores de profissao para PT",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.com/fhir/example/CodeSystem/prof-cs"
+    }]
+  }
+}

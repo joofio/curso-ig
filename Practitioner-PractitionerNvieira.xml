@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="PractitionerNvieira"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="PractitionerNvieira"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;PractitionerNvieira&quot; </p></div><p><b>identifier</b>: id: 12345 (use: OFFICIAL), id: 54321 (use: SECONDARY)</p><p><b>active</b>: true</p><p><b>name</b>: some nvieira name</p><p><b>address</b>: some address text(HOME)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1989-01-01</p><h3>Qualifications</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>some qualification <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#1234)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://example.org"/>
+    <value value="12345"/>
+  </identifier>
+  <identifier>
+    <use value="secondary"/>
+    <system value="http://algumsite.org"/>
+    <value value="54321"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="usual"/>
+    <text value="some nvieira name"/>
+    <family value="some family name"/>
+    <given value="some given"/>
+  </name>
+  <address>
+    <use value="home"/>
+    <text value="some address text"/>
+    <city value="some city"/>
+    <country value="some country"/>
+  </address>
+  <gender value="male"/>
+  <birthDate value="1989-01-01"/>
+  <qualification>
+    <code>
+      <coding>
+        <system value="http://example.org"/>
+        <code value="1234"/>
+      </coding>
+      <text value="some qualification"/>
+    </code>
+  </qualification>
+</Practitioner>

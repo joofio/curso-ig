@@ -1,0 +1,42 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "prof-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>http://example.com/fhir/example/CodeSystem/prof-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">serralheiro<a name=\"prof-cs-serralheiro\"> </a></td></tr><tr><td style=\"white-space:nowrap\">medico<a name=\"prof-cs-medico\"> </a></td></tr><tr><td style=\"white-space:nowrap\">motorista<a name=\"prof-cs-motorista\"> </a></td></tr></table></div>"
+  },
+  "url" : "http://example.com/fhir/example/CodeSystem/prof-cs",
+  "version" : "0.1.0-test",
+  "name" : "ProfisaoCS",
+  "title" : "profissao code system",
+  "status" : "active",
+  "date" : "2023-11-02T09:41:29+00:00",
+  "publisher" : "xxxYour Work Group",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://xxhl7.org/Special/committees/[something]"
+    }]
+  }],
+  "description" : "Lymph node terms that could not be found in standard sources such as SNOMED CT.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001"
+    }]
+  }],
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "serralheiro",
+    "display" : "serralheiro"
+  },
+  {
+    "code" : "medico",
+    "display" : "medico"
+  },
+  {
+    "code" : "motorista",
+    "display" : "motorista"
+  }]
+}

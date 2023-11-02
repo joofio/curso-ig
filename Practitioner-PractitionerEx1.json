@@ -1,0 +1,51 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "PractitionerEx1",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"PractitionerEx1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;PractitionerEx1&quot; </p></div><p><b>identifier</b>: id:\u00a01\u00a0(use:\u00a0USUAL), id:\u00a02\u00a0(use:\u00a0OFFICIAL)</p><p><b>active</b>: true</p><p><b>name</b>: José Silva </p><p><b>telecom</b>: ph: 955555(HOME), <a href=\"mailto:teste@gmail.com\">teste@gmail.com</a></p><p><b>address</b>: Rua Teste(HOME)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1980-01-01</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>Exemplo 1 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (example.org#1)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "usual",
+    "system" : "1",
+    "value" : "1"
+  },
+  {
+    "use" : "official",
+    "system" : "2",
+    "value" : "2"
+  }],
+  "active" : true,
+  "name" : [{
+    "family" : "Silva",
+    "given" : ["José"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "955555",
+    "use" : "home"
+  },
+  {
+    "system" : "email",
+    "value" : "teste@gmail.com",
+    "use" : "work"
+  }],
+  "address" : [{
+    "use" : "home",
+    "type" : "physical",
+    "text" : "Rua Teste",
+    "city" : "Horta",
+    "country" : "Portugal"
+  }],
+  "gender" : "male",
+  "birthDate" : "1980-01-01",
+  "qualification" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://example.org",
+        "code" : "1"
+      }],
+      "text" : "Exemplo 1"
+    }
+  }]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="PractitionerExample"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="PractitionerExample"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;PractitionerExample&quot; </p></div><p><b>identifier</b>: id: Medico, id: Especialista</p><p><b>active</b>: true</p><p><b>name</b>: Rui Gonçalves </p><p><b>telecom</b>: ph: 9876543210</p><p><b>address</b>: Porto </p><p><b>gender</b>: male</p><p><b>birthDate</b>: 1978-10-17</p><h3>Qualifications</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>exemploQualification <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (example.org#123)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="http://example.org"/>
+    <value value="Medico"/>
+  </identifier>
+  <identifier>
+    <system value="http://example.org"/>
+    <value value="Especialista"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <family value="Gonçalves"/>
+    <given value="Rui"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="9876543210"/>
+  </telecom>
+  <address>
+    <city value="Porto"/>
+  </address>
+  <gender value="male"/>
+  <birthDate value="1978-10-17"/>
+  <qualification>
+    <code>
+      <coding>
+        <system value="http://example.org"/>
+        <code value="123"/>
+      </coding>
+      <text value="exemploQualification"/>
+    </code>
+  </qualification>
+</Practitioner>

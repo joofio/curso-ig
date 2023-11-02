@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="prof-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>http://example.com/fhir/example/CodeSystem/prof-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">serralheiro<a name="prof-cs-serralheiro"> </a></td></tr><tr><td style="white-space:nowrap">medico<a name="prof-cs-medico"> </a></td></tr><tr><td style="white-space:nowrap">motorista<a name="prof-cs-motorista"> </a></td></tr></table></div>
+  </text>
+  <url value="http://example.com/fhir/example/CodeSystem/prof-cs"/>
+  <version value="0.1.0-test"/>
+  <name value="ProfisaoCS"/>
+  <title value="profissao code system"/>
+  <status value="active"/>
+  <date value="2023-11-02T09:41:29+00:00"/>
+  <publisher value="xxxYour Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://xxhl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="Lymph node terms that could not be found in standard sources such as SNOMED CT."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="serralheiro"/>
+    <display value="serralheiro"/>
+  </concept>
+  <concept>
+    <code value="medico"/>
+    <display value="medico"/>
+  </concept>
+  <concept>
+    <code value="motorista"/>
+    <display value="motorista"/>
+  </concept>
+</CodeSystem>

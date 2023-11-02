@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Practitioner xmlns="http://hl7.org/fhir">
+  <id value="ExamplePracticioner2"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Practitioner</b><a name="ExamplePracticioner2"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Practitioner &quot;ExamplePracticioner2&quot; </p></div><p><b>identifier</b>: id: id4435 (use: OFFICIAL), id: id4401 (use: OLD)</p><p><b>active</b>: true</p><p><b>name</b>: José Miguel Alves Fonseca (OFFICIAL)</p><p><b>telecom</b>: 222333444(OLD)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 2009-02-02</p><h3>Qualifications</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Identifier</b></td><td><b>Code</b></td></tr><tr><td style="display: none">*</td><td>id: id123 (use: OFFICIAL)</td><td>example123 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#123)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://www.example.com/identifier-coding"/>
+    <value value="id4435"/>
+  </identifier>
+  <identifier>
+    <use value="old"/>
+    <system value="http://www.example.com/identifier-coding"/>
+    <value value="id4401"/>
+  </identifier>
+  <active value="true"/>
+  <name>
+    <use value="official"/>
+    <family value="Alves Fonseca"/>
+    <given value="José"/>
+    <given value="Miguel"/>
+  </name>
+  <telecom>
+    <system value="pager"/>
+    <value value="222333444"/>
+    <use value="old"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="2009-02-02"/>
+  <qualification>
+    <identifier>
+      <use value="official"/>
+      <system value="http://www.example.com/qualification-coding"/>
+      <value value="id123"/>
+    </identifier>
+    <code>
+      <coding>
+        <code value="123"/>
+      </coding>
+      <text value="example123"/>
+    </code>
+  </qualification>
+</Practitioner>

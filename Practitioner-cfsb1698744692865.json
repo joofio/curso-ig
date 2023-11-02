@@ -1,0 +1,45 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "cfsb1698744692865",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Practitioner</b><a name=\"cfsb1698744692865\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Practitioner &quot;cfsb1698744692865&quot; </p></div><p><b>identifier</b>: id:\u00a0João\u00a0(use:\u00a0USUAL), id:\u00a0João Moreira\u00a0(use:\u00a0OFFICIAL)</p><p><b>active</b>: true</p><p><b>name</b>: João Moreira (OFFICIAL)</p><p><b>telecom</b>: ph: 930000000(WORK)</p><p><b>gender</b>: male</p><p><b>birthDate</b>: 2000-01-01</p><h3>Qualifications</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Identifier</b></td><td><b>Code</b></td></tr><tr><td style=\"display: none\">*</td><td>id:\u00a01\u00a0(use:\u00a0USUAL)</td><td>CodigoTesteJM <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (exampleJMrg#123)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "usual",
+    "system" : "http://exampleJM.org",
+    "value" : "João"
+  },
+  {
+    "use" : "official",
+    "system" : "http://exampleJM.org",
+    "value" : "João Moreira"
+  }],
+  "active" : true,
+  "name" : [{
+    "use" : "official",
+    "family" : "Moreira",
+    "given" : ["João"]
+  }],
+  "telecom" : [{
+    "system" : "phone",
+    "value" : "930000000",
+    "use" : "work"
+  }],
+  "gender" : "male",
+  "birthDate" : "2000-01-01",
+  "qualification" : [{
+    "identifier" : [{
+      "use" : "usual",
+      "system" : "http://exampleJM.org",
+      "value" : "1"
+    }],
+    "code" : {
+      "coding" : [{
+        "system" : "http://exampleJMrg",
+        "code" : "123"
+      }],
+      "text" : "CodigoTesteJM"
+    }
+  }]
+}

@@ -1,8 +1,58 @@
 {
   "resourceType" : "Bundle",
-  "id" : "e1499614-cc37-4497-b04c-7c4c082cb4de",
+  "id" : "d757e0f9-2c30-43dd-9b56-e92baa0712a1",
   "meta" : {
-    "lastUpdated" : "2021-12-03T15:34:59.030+00:00"
+    "lastUpdated" : "2023-11-02T09:41:29.030+00:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://example.com/fhir/example/ValueSet/ptprof-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-prof-cs.html\">codesystem profissao code system v0.1.0-test (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-prof-cs-serralheiro\"> </a>\u00a0\u00a0<a href=\"CodeSystem-prof-cs.html#prof-cs-serralheiro\">serralheiro</a></td><td>http://example.com/fhir/example/CodeSystem/prof-cs</td><td>serralheiro</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-prof-cs-medico\"> </a>\u00a0\u00a0<a href=\"CodeSystem-prof-cs.html#prof-cs-medico\">medico</a></td><td>http://example.com/fhir/example/CodeSystem/prof-cs</td><td>medico</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---example.com-fhir-example-CodeSystem-prof-cs-motorista\"> </a>\u00a0\u00a0<a href=\"CodeSystem-prof-cs.html#prof-cs-motorista\">motorista</a></td><td>http://example.com/fhir/example/CodeSystem/prof-cs</td><td>motorista</td></tr></table></div>"
+      },
+      "url" : "http://example.com/fhir/example/ValueSet/ptprof-vs",
+      "version" : "0.1.0-test",
+      "name" : "ProffisaoVS",
+      "title" : "Profissao Value Set",
+      "status" : "active",
+      "date" : "2023-11-02T09:41:29+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:37f1a8af-1f96-4ee5-8355-c7a1eacf4a49",
+        "timestamp" : "2023-11-02T09:42:14+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://example.com/fhir/example/CodeSystem/prof-cs|0.1.0-test"
+        }],
+        "contains" : [{
+          "system" : "http://example.com/fhir/example/CodeSystem/prof-cs",
+          "code" : "serralheiro",
+          "display" : "serralheiro"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/prof-cs",
+          "code" : "medico",
+          "display" : "medico"
+        },
+        {
+          "system" : "http://example.com/fhir/example/CodeSystem/prof-cs",
+          "code" : "motorista",
+          "display" : "motorista"
+        }]
+      }
+    }
+  }]
 }
